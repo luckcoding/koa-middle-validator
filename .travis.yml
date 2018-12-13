@@ -1,0 +1,16 @@
+sudo: false
+language: node_js
+node_js:
+  # LTS
+  - "4.7"
+  - "6.9"
+  # Current version
+  - "7"
+before_install:
+  - npm install -g npm
+install:
+  - npm install
+script:
+  - npm run travis-build
+after_success:
+  - npm run report-coverage
