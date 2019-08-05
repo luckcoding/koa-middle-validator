@@ -3,16 +3,16 @@
   "description": "Koa middleware for the validator module. Support v1 and v2.",
   "author": "luckcoding",
   "homepage": "https://github.com/luckcoding/koa-middle-validator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --harmony"
   },
   "dependencies": {
-    "bluebird": "^3.5.0",
+    "bluebird": "^3.5.5",
     "co": "^4.6.0",
-    "lodash": "^4.17.4",
-    "validator": "^6.2.0"
+    "lodash": "^4.17.15",
+    "validator": "^11.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
