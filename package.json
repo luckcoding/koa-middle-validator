@@ -12,7 +12,7 @@
     "bluebird": "^3.5.5",
     "co": "^4.6.0",
     "lodash": "^4.17.15",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
